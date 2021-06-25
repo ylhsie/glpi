@@ -1,0 +1,19 @@
+[2021-06-24 06:39:52] glpiphplog.WARNING: Test logger  
+[2021-06-24 06:42:07] glpiphplog.WARNING: Test logger  
+[2021-06-24 06:54:38] glpiphplog.WARNING: Test logger  
+[2021-06-24 09:31:42] glpiphplog.DEBUG: Html::compileScss() in C:\wamp64\www\glpi\inc\html.class.php line 7505
+css/styles.scss is new, loading  {"user":"2@DESKTOP-GR631TV"} 
+[2021-06-24 09:31:52] glpiphplog.DEBUG: Html::compileScss() in C:\wamp64\www\glpi\inc\html.class.php line 7505
+css/palettes/lightblue.scss is new, loading  {"user":"2@DESKTOP-GR631TV"} 
+[2021-06-24 09:54:43] glpiphplog.ERROR: Toolbox::callCurl() in C:\wamp64\www\glpi\inc\toolbox.class.php line 1740
+Connection failed. If you use a proxy, please configure it. (SSL certificate problem: unable to get local issuer certificate)  {"user":"2@DESKTOP-GR631TV"} 
+[2021-06-24 09:54:47] glpiphplog.ERROR: Toolbox::callCurl() in C:\wamp64\www\glpi\inc\toolbox.class.php line 1740
+Connection failed. If you use a proxy, please configure it. (SSL certificate problem: unable to get local issuer certificate)  {"user":"2@DESKTOP-GR631TV"} 
+[2021-06-24 11:30:40] glpiphplog.DEBUG: Html::compileScss() in C:\wamp64\www\glpi\inc\html.class.php line 7505
+css/dashboard.scss is new, loading  {"user":"2@DESKTOP-GR631TV"} 
+[2021-06-24 11:32:01] glpiphplog.WARNING: Test logger  
+[2021-06-24 11:33:08] glpiphplog.ERROR: Toolbox::callCurl() in C:\wamp64\www\glpi\inc\toolbox.class.php line 1740
+Connection failed. If you use a proxy, please configure it. (SSL certificate problem: unable to get local issuer certificate)  {"user":"2@DESKTOP-GR631TV"} 
+[2021-06-24 11:33:41] glpiphplog.WARNING: Test logger  
+[2021-06-24 11:33:42] glpiphplog.ERROR: Toolbox::callCurl() in C:\wamp64\www\glpi\inc\toolbox.class.php line 1740
+Connection failed. If you use a proxy, please configure it. (SSL certificate problem: unable to get local issuer certificate)  {"user":"2@DESKTOP-GR631TV"} 

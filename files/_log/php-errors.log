@@ -17,3 +17,87 @@ Connection failed. If you use a proxy, please configure it. (SSL certificate pro
 [2021-06-24 11:33:41] glpiphplog.WARNING: Test logger  
 [2021-06-24 11:33:42] glpiphplog.ERROR: Toolbox::callCurl() in C:\wamp64\www\glpi\inc\toolbox.class.php line 1740
 Connection failed. If you use a proxy, please configure it. (SSL certificate problem: unable to get local issuer certificate)  {"user":"2@DESKTOP-GR631TV"} 
+[2021-06-30 12:59:02] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1049): Unknown database 'glpi' in C:\xampp\htdocs\glpi\inc\dbmysql.class.php at line 185
+  Backtrace :
+  inc\dbmysql.class.php:185                          mysqli->real_connect()
+  inc\dbmysql.class.php:147                          DBmysql->connect()
+  inc\dbconnection.class.php:192                     DBmysql->__construct()
+  inc\dbconnection.class.php:274                     DBConnection::switchToMaster()
+  inc\config.php:85                                  DBConnection::establishDBConnection()
+  inc\includes.php:48                                include_once()
+  index.php:55                                       include()
+  
+[2021-06-30 14:14:37] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1049): Unknown database 'glpi' in C:\xampp\htdocs\glpi\inc\dbmysql.class.php at line 185
+  Backtrace :
+  inc\dbmysql.class.php:185                          mysqli->real_connect()
+  inc\dbmysql.class.php:147                          DBmysql->connect()
+  inc\dbconnection.class.php:192                     DBmysql->__construct()
+  inc\dbconnection.class.php:274                     DBConnection::switchToMaster()
+  inc\config.php:85                                  DBConnection::establishDBConnection()
+  inc\includes.php:48                                include_once()
+  index.php:55                                       include()
+  
+[2021-06-30 14:14:54] glpiphplog.WARNING:   *** PHP Warning (2): mysqli::real_connect(): (HY000/1049): Unknown database 'glpi' in C:\xampp\htdocs\glpi\inc\dbmysql.class.php at line 185
+  Backtrace :
+  inc\dbmysql.class.php:185                          mysqli->real_connect()
+  inc\dbmysql.class.php:147                          DBmysql->connect()
+  inc\dbconnection.class.php:192                     DBmysql->__construct()
+  inc\dbconnection.class.php:274                     DBConnection::switchToMaster()
+  inc\config.php:85                                  DBConnection::establishDBConnection()
+  inc\includes.php:48                                include_once()
+  index.php:55                                       include()
+  
+[2021-07-01 05:40:50] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 05:41:02] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 05:41:10] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 05:41:14] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 05:41:14] glpiphplog.WARNING: Test logger  
+[2021-07-01 05:41:15] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 05:42:56] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 05:42:56] glpiphplog.WARNING: Test logger  
+[2021-07-01 05:42:56] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 05:44:15] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 05:44:15] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 05:44:33] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 05:44:38] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 05:44:43] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 05:44:47] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 05:44:48] glpiphplog.WARNING: Test logger  
+[2021-07-01 05:44:48] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 06:02:36] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 06:02:36] glpiphplog.WARNING: Test logger  
+[2021-07-01 06:02:36] glpiphplog.WARNING: Session::loadLanguage() in C:\xampp\htdocs\glpi\inc\session.class.php line 630
+Missing required intl PHP extension  {"user":"@DESKTOP-MNTKRCI"} 
+[2021-07-01 06:12:50] glpiphplog.WARNING: Test logger  
+[2021-07-01 06:35:32] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_configs does not exists in C:\xampp\htdocs\glpi\inc\dbmysql.class.php at line 1028
+  Backtrace :
+  inc\dbmysql.class.php:1028                         trigger_error()
+  inc\config.class.php:3136                          DBmysql->fieldExists()
+  inc\session.class.php:633                          Config::getCache()
+  install\update.php:544                             Session::loadLanguage()
+  install\install.php:559                            include_once()
+  install\install.php:701                            update1()
+  
+[2021-07-01 06:35:53] glpiphplog.WARNING:   *** PHP User Warning (512): Table glpi_configs does not exists in C:\xampp\htdocs\glpi\inc\dbmysql.class.php at line 1028
+  Backtrace :
+  inc\dbmysql.class.php:1028                         trigger_error()
+  inc\config.class.php:3136                          DBmysql->fieldExists()
+  inc\session.class.php:633                          Config::getCache()
+  install\update.php:544                             Session::loadLanguage()
+  
+[2021-07-01 06:41:52] glpiphplog.WARNING: Test logger  
